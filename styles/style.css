@@ -24,6 +24,17 @@ body {
     font-family: "Azeret Mono";
 }
 
+.clickable-btns{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+
+}
+
 .without-color{
     text-decoration: none;
     color: #FFF;
@@ -471,6 +482,143 @@ body {
 
 /* web-development-section-ends */ 
 
+/* My-next-target-stars */
+
+
+.my-next-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-left: 150px;
+}
+
+.next-target-heading p{
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.next-target-heading h3{
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.react-icon{
+    width: 94.781px;
+    height: 108px;
+    margin-right: 32px;
+    margin-top: 30px;
+
+}
+
+.react-description {
+    color: #0D1321;
+    text-align: left;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+
+.next-target-React{
+    display: flex;
+    padding: 40px;
+    align-items: flex-start;
+    gap: 32px;
+    border: 2px solid black;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    margin-bottom: 24px;
+}
+
+.next-target-node{
+    display: flex;
+    padding: 40px;
+    align-items: flex-start;
+    gap: 32px;
+    border: 2px solid black;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    margin-bottom: 24px;
+
+}
+
+.Node-content-container h2{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px; /* 150% */
+
+}
+
+.Node-content-container p{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.react-icon{
+    width: 94.781px;
+    height: 108px;
+    margin-right: 32px;
+    margin-top: 30px;
+
+}
+
+.next-target-mongodb{
+    display: flex;
+    padding: 40px;
+    align-items: flex-start;
+    gap: 32px;
+    border: 2px solid black;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    margin-bottom: 24px;
+
+}
+
+.mongobd{
+    width: 94.781px;
+    height: 108px;
+    margin-right: 32px;
+    margin-top: 30px;
+}
+
+
+.mongodb-content-container h2{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.mongodb-content-container p{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+
+/* My-next-target-ends */
+
 
 /* I-Need-Suppot-Starts */
 
@@ -556,7 +704,7 @@ t   text-align: center;
     justify-content: space-between;
     max-width: 1440px;
     height: 36px;
-    margin-left: 50px;
+    margin-left: 150px;
     padding: 32px 150px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
